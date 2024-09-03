@@ -1,0 +1,157 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 69px;
+}
+
+.logo img {
+    padding:10px;
+    height: 50px;
+    opacity: 50%;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: underline;
+    color: grey;
+}
+
+.nav-list a {
+    color: seashell;
+    text-decoration: none;
+    padding: 10px;
+    opacity:50%;
+}
+.main img{
+    height: 700px;
+    opacity: 0.4;
+}
+
+.container {
+    position: relative;
+}
+
+.mission{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 1200px;
+}
+.mission h4,h2 {
+    opacity: 0.5;
+}
+ .mission h4{
+     font-size: 20px;
+ }
+ #para{
+     justify-content: center;
+ }
+ .tea h4{
+     opacity: 0.5;
+ }
+.image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin: 10px;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    opacity: 0.5;
+}
+
+.image p {
+    margin: 10px ;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.item{
+    justify-content: space-between;
+    margin:0 10px 0;
+}
+.location img{
+    height: 500px;
+    opacity: 0.5;
+    width: 1100px;
+    padding: 35px 0 0 0;
+}
+
+.loc{
+ margin-bottom: 15px;
+opacity: 0.8;
+}
+.section{
+    display: inline-flex;
+    justify-content: space-between;
+
+}.sec1{
+    position: relative;
+ }
+.sec2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+}
+.a, .b, .c{
+    background-color: black;
+    color: white;
+    margin-right: 40px;
+    width: 300px;
+}
+.a h3,p{
+    opacity: 0.5;
+}
+.b h3,p{
+    opacity: 0.5;
+}
+.c h3,p{
+    opacity: 0.5;
+}
+.end{
+    opacity: 0.5;
+    height: 200px;
+    margin-top: 0;
+}
+.footer{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
